@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>About</title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>
+                The weather data displayed in this page is obtained by making API calls to the following service providers:
+                <ul>
+                    <li><a href="https://www.mapbox.com/" target="_blank">Mapbox</a>: To obtain latitude, longitude information based on the search text</li>
+                    <li><a href="https://darksky.net" target="_blank">Dark Sky</a>: To obtain weather information from latitude and longitude</li>
+                </ul>
+            </p>
+        </div>
+        
+        {{>footer}}
+    </body>
+</html>
