@@ -6,7 +6,7 @@ Howdy Cloudy is a Webapplication to retrieve weather information based on locati
 ### Install dependencies
 
 * Install [Node](https://nodejs.org/en/)
-* Navigate to the project directory(howdy-cloudy)
+* Navigate to the project directory(howdy-cloudy) and execute below command
 > npm install
 
 ### Obtain API keys
